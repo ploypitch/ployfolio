@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import avatarBg from "@/public/avatar-bg.svg";
-import avatar from "@/public/avatar.png"
+import avatar from "@/public/avatar.png";
 
 const HeroSection = () => {
   return (
@@ -15,8 +15,8 @@ const HeroSection = () => {
             <h1 className="text-primary">Pitchapa Pawong.</h1>
             <p className="text-body-1 text-white mt-4">
               A front-end developer with over 4 years of professional
-              experience, specializing in React to deliver excellent user
-              experiences.
+              experience, specializing in React.js to deliver excellent user
+              experiences. 
             </p>
           </div>
           <div className="relative">
@@ -31,7 +31,12 @@ const HeroSection = () => {
               width={446}
               height={446}
               alt="avatar-ploy"
-              style={{ position: "absolute", top: 0, marginTop: "-37px", marginLeft: "104px"}}
+              style={{
+                position: "absolute",
+                top: 0,
+                marginTop: "-37px",
+                marginLeft: "104px",
+              }}
             />
           </div>
         </div>
