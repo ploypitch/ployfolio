@@ -34,10 +34,11 @@ module.exports = {
     },
     fontSize: {
       "body-1": [
-        "20px",
+        "18px",
         {
           lineHeight: "24px",
           fontWeight: "300",
+          letterSpacing: "1px"
         },
       ],
       "body-2": [
