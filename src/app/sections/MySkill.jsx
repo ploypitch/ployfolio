@@ -53,14 +53,14 @@ const MySkill = () => {
   return (
     <section>
       <div className="bg-gray h-dvh relative">
-        <div className="absolute left-2/4 mt-[20dvh] flex items-center">
+        <div className="absolute left-2/4 mt-[20dvh] flex items-center overflow-hidden">
           <Image src={bgVector1} alt="bg-vector-1" className="mr-[150px]" />
           <Image src={bgVector2} alt="bg-vector-2" />
         </div>
         <Image
           src={bgVector3}
           alt="bg-vector-3"
-          className="absolute left-3/4 bottom-0 mb-[20dvh]"
+          className="absolute left-3/4 bottom-0 mb-[20dvh] overflow-hidden"
         />
         <div className="px-40 flex flex-col justify-center h-full">
           <div className="w-6/12">
@@ -93,11 +93,6 @@ const MySkill = () => {
                 </div>
               </div>
             ))}
-            {/* <Image
-              src={bgVector3}
-              alt="bg-vector-3"
-              className="ml-30"
-            /> */}
           </div>
         </div>
       </div>
