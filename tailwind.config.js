@@ -16,12 +16,6 @@ module.exports = {
         "gradient-section": "linear-gradient(90deg, #4c418f 66%, #ed779a 66%)",
       },
     },
-    backgroundColor: {
-      white: "#ffffff",
-      gray: "f9f9f9",
-      "primary-light": "#f7c6d5",
-      secondary: "#4c418f",
-    },
     borderColor: {
       white: "ffffff",
       "pink-light": "#f7c6d5",
@@ -48,6 +42,13 @@ module.exports = {
           fontWeight: "500",
         },
       ],
+      "label": [
+        "12px",
+        {
+          lineHeight: "19px",
+          fontWeight: "300",
+        },
+      ],
     },
     colors: {
       "primary-100": "#f7c6d5",
@@ -62,10 +63,14 @@ module.exports = {
       "neutral-200": "#f9f9f9",
       "neutral-300": "#e9e9e9",
       "neutral-400": "#dadada",
+      white: "#ffffff",
+      gray: "f9f9f9",
+      "primary-light": "#f7c6d5",
+      secondary: "#4c418f",
     },
   },
   plugins: [
-    plugin(function ({ addBase, theme }) {
+    plugin(function ({ addBase }) {
       addBase({
         h1: {
           fontSize: "64px",
