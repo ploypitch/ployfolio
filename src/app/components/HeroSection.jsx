@@ -16,27 +16,26 @@ const HeroSection = () => {
             <p className="text-body-1 text-white mt-4">
               A front-end developer with over 4 years of professional
               experience, specializing in React.js to deliver excellent user
-              experiences. 
+              experiences.
             </p>
           </div>
           <div className="relative">
             <Image
               src={avatarBg}
-              width={576}
-              height={446}
+              width={"auto"}
+              height={"auto"}
               alt="avatar-bg-svg"
+              style={{ maxWidth: 576 }}
+              priority={false}
             />
+
             <Image
               src={avatar}
               width={446}
               height={446}
               alt="avatar-ploy"
-              style={{
-                position: "absolute",
-                top: 0,
-                marginTop: "-37px",
-                marginLeft: "104px",
-              }}
+              style={{ position: "absolute", top: "-37px", right: 24}}
+              priority={false}
             />
           </div>
         </div>
