@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import avatarBg from "@/public/avatar-bg.svg";
+import avatarBg from "@/public/avatar-bg.svg?url";
 import avatar from "@/public/avatar.png";
 
 const HeroSection = () => {

@@ -17,9 +17,9 @@ import styledComponentIcon from "@/public/skills/styled-component.png";
 import tailwindIcon from "@/public/skills/tailwind.png";
 import typescriptIcon from "@/public/skills/typescript.png";
 
-import bgVector1 from "@/public/bg_vector_1.svg";
-import bgVector2 from "@/public/bg_vector_2.svg";
-import bgVector3 from "@/public/bg_vector_3.svg";
+import bgVector1 from "@/public/bg_vector_1.svg?url";
+import bgVector2 from "@/public/bg_vector_2.svg?url";
+import bgVector3 from "@/public/bg_vector_3.svg?url";
 
 const Divider = styled.div`
   width: 2px;
