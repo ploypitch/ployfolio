@@ -68,6 +68,7 @@ module.exports = {
       gray: "var(--color-gray)",
       "primary-light": "var(--color-primary-light)",
       secondary: "var(--color-secondary)",
+      "dark-400": "var(--color-dark-400)"
     },
   },
   plugins: [
