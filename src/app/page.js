@@ -5,6 +5,7 @@ import MySkill from "./sections/MySkill";
 import Experiences from "./sections/Experiences";
 import SeeMore from "./sections/SeeMore";
 import NavBar from "./components/NavBar";
+import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <MySkill />
       <Experiences />
       <SeeMore />
+      <Footer />
     </main>
   );
 }
