@@ -17,14 +17,15 @@ module.exports = {
       },
     },
     borderColor: {
-      white: "ffffff",
-      "pink-light": "#f7c6d5",
+      white: "var(--color-white)",
+      "pink-light": "var(--color-primary-light)",
+      "secondary-100": "var(--color-secondary-100)",
     },
     textColor: {
-      primary: "#ed779a",
-      secondary: "#4c418f",
-      gray: "#b4afd0",
-      white: "#ffffff",
+      primary: "var(--color-primary-400)",
+      secondary: "var(--color-secondary-400)",
+      gray: "var(--color-secondary-100)",
+      white: "var(--color-white)",
     },
     fontSize: {
       "body-1": [
@@ -32,7 +33,7 @@ module.exports = {
         {
           lineHeight: "24px",
           fontWeight: "300",
-          letterSpacing: "1px"
+          letterSpacing: "1px",
         },
       ],
       "body-2": [
@@ -42,7 +43,7 @@ module.exports = {
           fontWeight: "500",
         },
       ],
-      "label": [
+      label: [
         "12px",
         {
           lineHeight: "19px",
@@ -51,22 +52,22 @@ module.exports = {
       ],
     },
     colors: {
-      "primary-100": "#f7c6d5",
-      "primary-200": "#f4acc1",
-      "primary-300": "#f191ae",
-      "primary-400": "#ed779a",
-      "secondary-100": "#b4afd0",
-      "secondary-200": "#918bba",
-      "secondary-300": "#6f66a5",
-      "secondary-400": "#4c418f",
-      "neutral-100": "#ffffff",
-      "neutral-200": "#f9f9f9",
-      "neutral-300": "#e9e9e9",
-      "neutral-400": "#dadada",
-      white: "#ffffff",
-      gray: "f9f9f9",
-      "primary-light": "#f7c6d5",
-      secondary: "#4c418f",
+      "primary-100": "var(--color-primary-100)",
+      "primary-200": "var(--color-primary-200)",
+      "primary-300": "var(--color-primary-300)",
+      "primary-400": "var(--color-primary-400)",
+      "secondary-100": "var(--color-secondary-100)",
+      "secondary-200": "var(--color-secondary-200)",
+      "secondary-300": "var(--color-secondary-300)",
+      "secondary-400": "var(--color-secondary-400)",
+      "neutral-100": "var(--color-neutral-100)",
+      "neutral-200": "var(--color-neutral-200)",
+      "neutral-300": "var(--color-neutral-300)",
+      "neutral-400": "var(--color-neutral-400)",
+      white: "var(--color-white)",
+      gray: "var(--color-gray)",
+      "primary-light": "var(--color-primary-light)",
+      secondary: "var(--color-secondary)",
     },
   },
   plugins: [
@@ -81,7 +82,6 @@ module.exports = {
         h2: {
           fontSize: "46px",
           lineHeight: "50px",
-          letterSpacing: "-1.3px",
           fontWeight: "700",
         },
       });
