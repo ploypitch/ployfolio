@@ -62,13 +62,14 @@ const ImageProfile = () => {
     </>
   );
 };
+{/* md:max-w-[36dvw]  */}
 
 const HeroSection = () => {
   return (
-    <section>
-      <div className="md:bg-gradient-section xs:bg-secondary xs:min-h-full md:h-full">
-        <div className="xs:px-6 xs:pt-32 xs:pb-6 md:pb-16 lg:px-40 md:px-16 md:pt-40 flex items-center xl:justify-center md:gap-8 xs:flex-col md:flex-row overflow-hidden">
-          <div className="md:max-w-[36dvw] h-full">
+    <section className="md:bg-gradient-section xs:bg-secondary min-h-full w-full">
+      <div className="xl:flex xl:justify-center">
+        <div className="xs:px-6 xs:pt-32 xs:pb-6 md:pb-16 lg:px-40 md:px-16 md:pt-40 flex items-center xl:mx-auto md:gap-8 xs:flex-col md:flex-row overflow-hidden xl:max-w-[1500px]">
+          <div className="h-full flex flex-col justify-center">
             <p className="xs:text-h2-mb md:text-h2 text-primary">
               Hi, my name is
             </p>
@@ -81,7 +82,7 @@ const HeroSection = () => {
               experiences.
             </p>
 
-            <div className="md:mt-[70px] xs:mt-6 flex justify-between gap-6">
+            <div className="md:mt-[70px] xs:mt-20 flex justify-between gap-6">
               <p className="xs:text-body-2-mb md:text-body-2 text-primary">
                 Highly skilled at progressive enhancement, design systems & UI
                 Engineering.
