@@ -7,7 +7,8 @@ import ArrowRight from "@/public/arrow-right.svg";
 
 const StyledButton = styled.button`
   display: flex;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   padding: 12px 0;
   justify-content: center;
   align-items: center;
