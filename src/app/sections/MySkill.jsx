@@ -64,7 +64,7 @@ const MySkill = () => {
         />
         <div className="px-40 flex flex-col justify-center h-full">
           <div className="w-6/12">
-            <h1 className="text-secondary">My Skills</h1>
+            <p className="text-h1 text-secondary">My Skills</p>
             <p className="my-6 text-secondary">
               I excel in HTML, CSS, and JavaScript, creating sleek,
               user-friendly interfaces. Skilled in Ant and React, I craft
