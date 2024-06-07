@@ -9,13 +9,15 @@ import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <NavBar />
-      <HeroSection />
-      <MySkill />
-      <Experiences />
-      <SeeMore />
-      <Footer />
-    </main>
+      <main>
+        <HeroSection />
+        <MySkill />
+        <Experiences />
+        <SeeMore />
+        <Footer />
+      </main>
+    </>
   );
 }
