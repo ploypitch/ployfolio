@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require("tailwindcss/plugin");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -16,6 +17,10 @@ module.exports = {
         "gradient-section": "linear-gradient(90deg, #4c418f 66%, #ed779a 66%)",
       },
     },
+    screens: {
+      xs: "0px",
+      ...defaultTheme.screens,
+    },
     borderColor: {
       white: "var(--color-white)",
       "pink-light": "var(--color-primary-light)",
@@ -28,6 +33,21 @@ module.exports = {
       white: "var(--color-white)",
     },
     fontSize: {
+      h1: [
+        "64px",
+        {
+          lineHeight: "70px",
+          letterSpacing: "-1.9px",
+          fontWeight: 700,
+        },
+      ],
+      h2: [
+        "46px",
+        {
+          lineHeight: "50px",
+          fontWeight: 700,
+        },
+      ],
       "body-1": [
         "18px",
         {
@@ -50,6 +70,36 @@ module.exports = {
           fontWeight: "300",
         },
       ],
+      "h1-mb": [
+        "42px", 
+        {
+          lineHeight: "46px",
+          letterSpacing: "-1.2px",
+          fontWeight: 700
+        }
+      ],
+      "h2-mb": [
+        "36px", 
+        {
+          lineHeight: "40px",
+          letterSpacing: "-1px",
+          fontWeight: 700
+        }
+      ],
+      "body-1-mb": [
+        "16px",
+        {
+          lineHeight: "24px",
+          fontWeight: 300,
+        },
+      ],
+      "body-2-mb": [
+        "16px",
+        {
+          ineHeight: "20px",
+          fontWeight: 300,
+        },
+      ],
     },
     colors: {
       "primary-100": "var(--color-primary-100)",
@@ -68,24 +118,24 @@ module.exports = {
       gray: "var(--color-gray)",
       "primary-light": "var(--color-primary-light)",
       secondary: "var(--color-secondary)",
-      "dark-400": "var(--color-dark-400)"
+      "dark-400": "var(--color-dark-400)",
     },
   },
   plugins: [
-    plugin(function ({ addBase }) {
-      addBase({
-        h1: {
-          fontSize: "64px",
-          lineHeight: "70px",
-          letterSpacing: "-1.901px",
-          fontWeight: "700",
-        },
-        h2: {
-          fontSize: "46px",
-          lineHeight: "50px",
-          fontWeight: "700",
-        },
-      });
-    }),
+    // plugin(function ({ addBase }) {
+    //   addBase({
+    //     h1: {
+    //       fontSize: "64px",
+    //       lineHeight: "70px",
+    //       letterSpacing: "-1.901px",
+    //       fontWeight: "700",
+    //     },
+    //     h2: {
+    //       fontSize: "46px",
+    //       lineHeight: "50px",
+    //       fontWeight: "700",
+    //     },
+    //   });
+    // }),
   ],
 };
