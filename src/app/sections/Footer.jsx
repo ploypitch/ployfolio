@@ -37,7 +37,7 @@ const FooterContent = [
     title: "About me",
     children: [
       {
-        title: "Pitcha.paw@gmail.com",
+        title: "Pitchapa.paw@gmail.com",
         href: "/",
       },
       {
