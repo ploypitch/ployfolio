@@ -5,6 +5,7 @@ import Image from "next/image";
 import avatarBg from "@/public/avatar-bg.svg?url";
 import avatar from "@/public/avatar.png";
 import styled from "styled-components";
+import Nav from "../components/Nav";
 
 const AvatarBg = styled(Image)`
   max-width: 576px;
@@ -62,7 +63,6 @@ const ImageProfile = () => {
     </>
   );
 };
-{/* md:max-w-[36dvw]  */}
 
 const HeroSection = () => {
   return (
@@ -96,6 +96,7 @@ const HeroSection = () => {
           <div className="relative xs:hidden md:flex">
             <ImageProfile />
           </div>
+          <Nav />
         </div>
         <div className="md:hidden xs:bg-primary-400 min-w-full h-[340px] py-10 relative overflow-hidden">
           <ImageProfile />
