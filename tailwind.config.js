@@ -25,12 +25,15 @@ module.exports = {
       white: "var(--color-white)",
       "pink-light": "var(--color-primary-light)",
       "secondary-100": "var(--color-secondary-100)",
+      "card-border": "var(--color-neutral-600)"
     },
     textColor: {
       primary: "var(--color-primary-400)",
       secondary: "var(--color-secondary-400)",
       gray: "var(--color-secondary-100)",
       white: "var(--color-white)",
+      dark: "var(--color-neutral-500)",
+      "dark-gray": "var(--color-neutral-700)"
     },
     fontSize: {
       h1: [
@@ -47,6 +50,14 @@ module.exports = {
           lineHeight: "50px",
           fontWeight: 700,
         },
+      ],
+      h3: [
+        "24px",
+        {
+          lineHeight: "32px",
+          fontWeight: 600,
+          letterSpacing: "-0.6px"
+        }
       ],
       "body-1": [
         "18px",
@@ -86,6 +97,13 @@ module.exports = {
           fontWeight: 700
         }
       ],
+      "h3-mb": [
+        "20px", 
+        {
+          lineHeight: "24px",
+          fontWeight: 600
+        }
+      ],
       "body-1-mb": [
         "16px",
         {
@@ -114,11 +132,13 @@ module.exports = {
       "neutral-200": "var(--color-neutral-200)",
       "neutral-300": "var(--color-neutral-300)",
       "neutral-400": "var(--color-neutral-400)",
+      "neutral-500": "var(--color-neutral-500)",
       white: "var(--color-white)",
       gray: "var(--color-gray)",
       "primary-light": "var(--color-primary-light)",
       secondary: "var(--color-secondary)",
       "dark-400": "var(--color-dark-400)",
+      "card-bg": "var(--color-card-bg)"
     },
   },
   plugins: [
