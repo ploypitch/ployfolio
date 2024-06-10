@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ButtonLink from "../components/ButtonLink";
+import ButtonLink from "@/components/button-link";
 
 const SeeMore = () => {
   return (
