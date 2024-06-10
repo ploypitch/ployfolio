@@ -5,7 +5,7 @@ import Image from "next/image";
 import avatarBg from "@/public/avatar-bg.svg?url";
 import avatar from "@/public/avatar.png";
 import styled from "styled-components";
-import Nav from "../components/Nav";
+import Nav from "@/components/nav";
 
 const AvatarBg = styled(Image)`
   max-width: 576px;
