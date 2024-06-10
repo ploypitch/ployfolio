@@ -2,59 +2,11 @@
 
 import React from "react";
 
-const FooterContent = [
-  {
-    title: "About me",
-    children: [
-      {
-        title: "Homepage",
-        href: "/",
-      },
-      {
-        title: "My resume",
-        href: "/",
-      },
-    ],
-  },
-  {
-    title: "My work",
-    children: [
-      {
-        title: "Vonder Workplace",
-        href: "/",
-      },
-      {
-        title: "Vonder project",
-        href: "/",
-      },
-      {
-        title: "VerMe",
-        href: "/",
-      },
-    ],
-  },
-  {
-    title: "About me",
-    children: [
-      {
-        title: "Pitchapa.paw@gmail.com",
-        href: "/",
-      },
-      {
-        title: "Linkedin",
-        href: "/",
-      },
-      {
-        title: "Github",
-        href: "/",
-      },
-    ],
-  },
-];
+import { FooterContent } from "../constances/footer-content";
 
-const Footer = () => {
+const Footer = ({ isLandingPage = true }) => {
   return (
-    <div className="bg-dark-400 min-h-dvh h-full flex justify-center items-center w-full py-16">
+    <div className={"bg-dark-400 h-full flex justify-center items-center w-full py-16 " + `${isLandingPage ? "min-h-dvh": "min-h-[60dvh]"}`}>
       <div className="xs:px-6 lg:px-40 md:px-16 xl:w-[1500px] xs:w-full">
         <div className="grid xs:grid-cols-1 sm:grid-cols-3">
           {FooterContent.map((footer, index) => (
