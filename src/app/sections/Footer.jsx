@@ -22,6 +22,7 @@ const Footer = ({ isLandingPage = true }) => {
                   <a
                     href={item.href}
                     className="text-white text-body-1-mb opacity-80"
+                    target={item.target}
                   >
                     {item.title}
                   </a>
