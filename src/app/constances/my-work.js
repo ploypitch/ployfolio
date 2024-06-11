@@ -1,19 +1,24 @@
-import Tonton from "@/public/tonton.jpg";
+import vonder_wf from "@/public/work-cover/vonder_wf.png";
+import vonder_pj from "@/public/work-cover/vonder_pj.png";
+import verme from "@/public/work-cover/verme.png"
 
 export const MyWorkList = [
     {
-        imageSrc: Tonton,
+        imageSrc: vonder_wf,
         label: "Vonder Workplace",
-        desc: "React.js, Antd, Cypress"
+        desc: "React.js, Antd",
+        project: "vonder-workplace"
     },
     {
-        imageSrc: Tonton,
+        imageSrc: vonder_pj,
         label: "Vonder Project",
-        desc: "React.js, Antd"
+        desc: "React.js, Antd",
+        project: "vonder-project"
     },
     {
-        imageSrc: Tonton,
+        imageSrc: verme,
         label: "VerME",
-        desc: "Next.js, tailwind, mui"
+        desc: "Next.js, tailwind, mui",
+        project: "verme"
     }
 ]
