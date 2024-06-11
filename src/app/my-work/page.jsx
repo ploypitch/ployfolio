@@ -19,6 +19,7 @@ export default function page() {
                   imageSrc={item?.imageSrc}
                   label={item.label}
                   desc={item.desc}
+                  project={item.project}
                 />
               </div>
             ))}
