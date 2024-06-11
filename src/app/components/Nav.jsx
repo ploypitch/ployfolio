@@ -41,7 +41,7 @@ const Nav = () => {
 
   return (
     <StyledNav
-      className="fixed z-50 right-16 mt-10 md:flex xs:hidden"
+      className="fixed z-50 right-16 mt-10 lg:flex xs:hidden"
       color={isWhiteNav ? "--color-white" : "--color-secondary"}
     >
       <ul>
