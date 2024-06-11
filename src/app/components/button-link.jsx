@@ -42,14 +42,19 @@ const StyledButton = styled.button`
   }
 `;
 
-const ButtonLink = ({ text = "button" , path }) => {
+const ButtonLink = ({
+  text = "button",
+  path = "/my-work",
+  target = "_self",
+}) => {
+
   return (
-    <div>
+    <a href={path} target={target}>
       <StyledButton>
         {text}
         <ArrowRight />
       </StyledButton>
-    </div>
+    </a>
   );
 };
 
