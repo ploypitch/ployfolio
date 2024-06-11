@@ -5,10 +5,12 @@ export const FooterContent = [
       {
         title: "Homepage",
         href: "/",
+        target: "_self"
       },
       {
         title: "My resume",
-        href: "/",
+        href: "/Pitchapa-Resume.pdf",
+        target: "_blank"
       },
     ],
   },
@@ -17,15 +19,15 @@ export const FooterContent = [
     children: [
       {
         title: "Vonder Workplace",
-        href: "/",
+        href: "/my-work/vonder-workplace",
       },
       {
         title: "Vonder project",
-        href: "/",
+        href: "/my-work/vonder-project",
       },
       {
-        title: "VerMe",
-        href: "/",
+        title: "VerME",
+        href: "/my-work/verme",
       },
     ],
   },
@@ -33,16 +35,19 @@ export const FooterContent = [
     title: "About me",
     children: [
       {
-        title: "Pitchapa.paw@gmail.com",
-        href: "/",
+        title: "pitchapa.paw@gmail.com",
+        href: "mailto:pitchapa.paw@gmail.com",
+        target: "_self"
       },
       {
         title: "Linkedin",
-        href: "/",
+        href: "https://www.linkedin.com/in/pitchapa-pawong-9a4517191",
+        target: "_blank"
       },
       {
         title: "Github",
-        href: "/",
+        href: "https://github.com/ploypitch",
+        target: "_blank"
       },
     ],
   },
