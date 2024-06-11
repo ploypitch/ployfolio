@@ -25,7 +25,7 @@ const SeeMore = () => {
               <p className="mt-6 mb-[72px] text-body-1 text-secondary">
                 See more of <br /> my detail in the resume.
               </p>
-              <ButtonLink text="see my resume" />
+              <ButtonLink text="see my resume" path="/Pitchapa-Resume.pdf" target="_blank"/>
             </div>
           </div>
         </div>
