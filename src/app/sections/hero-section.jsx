@@ -77,19 +77,19 @@ const HeroSection = () => {
               Pitchapa Pawong.
             </p>
             <p className="xs:text-body-1-mb md:text-body-1 text-white mt-4">
-              A front-end developer with over 4 years of professional
-              experience, specializing in React.js to deliver excellent user
-              experiences.
+              I&apos;m a Thai front-end web developer with over 4 years of
+              experience, passionate about crafting seamless user experiences
+              through front-end development.
             </p>
 
-            <div className="md:mt-[70px] xs:mt-20 flex justify-between gap-6">
+            <div className="md:mt-[70px] xs:mt-20 grid grid-cols-2 gap-6">
               <p className="xs:text-body-2-mb md:text-body-2 text-primary">
-                Highly skilled at progressive enhancement, design systems & UI
-                Engineering.
+                Specialize in translating UI designs into code with exceptional
+                accuracy.
               </p>
               <p className="xs:text-body-2-mb md:text-body-2 text-primary">
-                Highly skilled at progressive enhancement, design systems & UI
-                Engineering.
+                Consistently develop front-end code with a focus on reusability
+                and scalability.
               </p>
             </div>
           </div>
