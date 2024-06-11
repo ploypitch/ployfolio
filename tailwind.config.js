@@ -71,7 +71,7 @@ module.exports = {
         "16px",
         {
           lineHeight: "20px",
-          fontWeight: "500",
+          fontWeight: "400",
         },
       ],
       label: [
