@@ -17,7 +17,6 @@ const Divider = styled.div`
 `;
 
 const MySkill = () => {
-
   return (
     <section>
       <div className="bg-gray h-dvh relative overflow-hidden flex justify-center w-full">
@@ -34,10 +33,9 @@ const MySkill = () => {
           <div className="flex flex-col justify-center h-full">
             <div className="lg:w-6/12">
               <p className="text-h1 text-secondary">My Skills</p>
-              <p className="my-6 text-secondary">
-                I excel in HTML, CSS, and JavaScript, creating sleek,
-                user-friendly interfaces. Skilled in Ant and React, I craft
-                dynamic web experiences with ease.
+              <p className="my-6 text-secondary text-body-2">
+                I like to take responsibility to craft aesthetic user experience
+                using modern frontend architecture.
               </p>
             </div>
             <div className="flex xs:flex-col md:flex-row xs:gap-2 md:gap-0">
