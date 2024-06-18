@@ -32,8 +32,8 @@ const MySkill = () => {
         <div className="xs:px-6 lg:px-40 md:px-16 xl:w-[1500px]">
           <div className="flex flex-col justify-center h-full">
             <div className="lg:w-6/12">
-              <p className="text-h1 text-secondary">My Skills</p>
-              <p className="my-6 text-secondary text-body-2">
+              <p className="xs:text-h1-mb md:text-h1 text-secondary">My Skills</p>
+              <p className="my-6 text-secondary xs:text-body-2-mb md:text-body-2">
                 I like to take responsibility to craft aesthetic user experience
                 using modern frontend architecture.
               </p>
@@ -52,6 +52,7 @@ const MySkill = () => {
                           src={skill}
                           alt={`${skills.title}-${indexes + 1}`}
                           className="xs:w-8 md:w-12"
+                          loader=""
                         />
                       </div>
                     ))}

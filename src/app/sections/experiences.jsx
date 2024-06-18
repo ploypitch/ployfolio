@@ -12,8 +12,8 @@ const Experiences = () => {
         <div className="xs:px-6 lg:px-40 md:px-16 py-8 flex items-center justify-between xl:w-[1500px]">
           <div className="grid lg:grid-cols-2 xs:grid-cols-1 gap-10">
             <div>
-              <p className="text-h1 text-primary">Over the years,</p>
-              <p className="text-body-1 text-white mt-6">
+              <p className="xs:text-h1-mb md:text-h1 text-primary">Over the years,</p>
+              <p className="xs:text-body-1-mb md:text-body-1 text-white mt-6">
                 my journey in front-end development began during my third year
                 of college when I interned and discovered the wonders of HTML,
                 CSS, and JavaScript. The excitement of seeing my code come to
@@ -21,11 +21,11 @@ const Experiences = () => {
                 interfaces, and I immersed myself in learning these
                 technologies.
               </p>
-              <p className="text-body-1 text-white mt-4">
+              <p className="xs:text-body-1-mb md:text-body-1 text-white mt-4">
                 After graduation, I started my first job as a front-end web
                 developer at{" "}
                 <a
-                  className="text-white hover:text-primary text-body-1 cursor-pointer font-semibold"
+                  className="text-white hover:text-primary xs:text-body-1-mb md:text-body-1 cursor-pointer xs:font-semibold md:font-semibold"
                   href="https://www.existing.co/"
                   target="_blank"
                 >
@@ -38,10 +38,10 @@ const Experiences = () => {
                 and rewarding as I saw &quot;VerME&quot; evolve from an idea to
                 a fully functional product.
               </p>
-              <p className="text-body-1 text-white mt-4">
+              <p className="xs:text-body-1-mb md:text-body-1 text-white mt-4">
                 My journey continued at{" "}
                 <a
-                  className="text-white hover:text-primary text-body-1 cursor-pointer font-semibold"
+                  className="text-white hover:text-primary xs:text-body-1-mb md:text-body-1 cursor-pointer xs:font-semibold md:font-semibold"
                   href="https://www.vonder.co.th/for-workplace"
                   target="_blank"
                 >

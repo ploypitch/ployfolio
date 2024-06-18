@@ -10,16 +10,16 @@ const SeeMore = () => {
         <div className="xs:px-6 md:px-10 flex items-center">
           <div className="grid lg:grid-cols-2 xs:grid-cols-1 xs:divide-x-0 lg:divide-x-2 xs:divide-y-2 lg:divide-y-0 divide-secondary-100 w-full">
             <div className="xs:px-0 xs:py-16 lg:p-[100px] lg:w-[720px] xs:w-[90dvw]">
-              <p className="text-h2 text-secondary">
+              <p className="xs:text-h2-mb md:text-h2 text-secondary">
                 I build <br /> lot of stuff{" "}
               </p>
               <p className="mt-6 mb-[72px] text-body-1 text-secondary">
-                Projects, web apps <br /> and experimentals.
+                Projects and web apps
               </p>
               <ButtonLink text="see my work" />
             </div>
             <div className="xs:px-0 xs:py-16 lg:p-[100px] lg:w-[720px] xs:w-[90dvw]">
-              <p className="text-h2 text-secondary">
+              <p className="xs:text-h2-mb md:text-h2 text-secondary">
                 More <br /> about me{" "}
               </p>
               <p className="mt-6 mb-[72px] text-body-1 text-secondary">
