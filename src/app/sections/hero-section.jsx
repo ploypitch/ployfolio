@@ -31,7 +31,7 @@ const Avatar = styled(Image)`
 
   @media only screen and (max-width: 767px) {
     max-width: 266px;
-    top: 47%;
+    top: calc(47% - 2px);
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
   }
@@ -59,6 +59,7 @@ const ImageProfile = () => {
         height={"auto"}
         alt="avatar-ploy"
         priority={false}
+        loader=""
       />
     </>
   );
