@@ -14,7 +14,7 @@ const SeeMore = () => {
                 I build <br /> lot of stuff{" "}
               </p>
               <p className="mt-6 mb-[72px] text-body-1 text-secondary">
-                Projects and web apps
+                Projects and  <br /> web apps
               </p>
               <ButtonLink text="see my work" />
             </div>
